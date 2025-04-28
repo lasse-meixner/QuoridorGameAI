@@ -11,6 +11,15 @@ https://en.wikipedia.org/wiki/Quoridor_(board_game)
 
 ---
 
+## How to run
+
+```
+python main.py
+```
+
+You can choose who moves first.
+___
+
 ## What’s in this Project
 
 - **`game_state.py`**  
