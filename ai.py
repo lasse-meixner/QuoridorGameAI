@@ -37,9 +37,7 @@ class MinimaxAI:
     def choose_move(self, state: GameState):
         # ── Adaptive depth based on walls remaining ───────────────
         total_walls = sum(state.walls_remaining)
-        if total_walls < 6:
-            depth_limit = 6
-        elif total_walls < 10:
+        if total_walls < 4:
             depth_limit = 5
         else:
             depth_limit = self.depth
